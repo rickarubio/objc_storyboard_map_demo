@@ -7,6 +7,8 @@
 //
 
 #import "MapViewController.h"
+#import "LocationDataController.h"
+#import "Location.h"
 
 @interface MapViewController ()
 
@@ -27,6 +29,20 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    LocationDataController *model = [[LocationDataController alloc] init];
+    Location *poi = [model getPointOfInterest];
+    
+    CLLocationCoordinate2D poiCoordinates;
+    poiCoordinates.latitude = poi.latitude;
+    poiCoordinates.longitude = poi.longitude;
+    
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(poiCoordinates, 750, 750);
+    
+    [self.mapview setRegion:viewRegion animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
