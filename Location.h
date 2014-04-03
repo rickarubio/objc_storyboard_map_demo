@@ -10,4 +10,10 @@
 
 @interface Location : NSObject
 
+@property (strong, nonatomic) NSString *address;
+@property (strong, nonatomic) NSString *photoFileName;
+@property (nonatomic) float latitude;
+@property (nonatomic) float longitude;
+
+
 @end
