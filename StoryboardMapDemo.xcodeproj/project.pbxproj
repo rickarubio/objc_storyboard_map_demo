@@ -23,6 +23,7 @@
 		FB37A58318ECF43700CECCAD /* StoryboardMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A58218ECF43700CECCAD /* StoryboardMapDemoTests.m */; };
 		FB37A58E18ECF84F00CECCAD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A58D18ECF84F00CECCAD /* MapViewController.m */; };
 		FB37A59118ECFAC600CECCAD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A59018ECFAC600CECCAD /* Location.m */; };
+		FB37A59418ECFB8100CECCAD /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A59318ECFB8100CECCAD /* LocationDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		FB37A58D18ECF84F00CECCAD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		FB37A58F18ECFAC600CECCAD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ../Location.h; sourceTree = "<group>"; };
 		FB37A59018ECFAC600CECCAD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ../Location.m; sourceTree = "<group>"; };
+		FB37A59218ECFB8100CECCAD /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
+		FB37A59318ECFB8100CECCAD /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +121,6 @@
 		FB37A55D18ECF43700CECCAD /* StoryboardMapDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FB37A58F18ECFAC600CECCAD /* Location.h */,
-				FB37A59018ECFAC600CECCAD /* Location.m */,
 				FB37A56618ECF43700CECCAD /* AppDelegate.h */,
 				FB37A56718ECF43700CECCAD /* AppDelegate.m */,
 				FB37A56918ECF43700CECCAD /* Main.storyboard */,
@@ -129,6 +130,10 @@
 				FB37A56D18ECF43700CECCAD /* ViewController.m */,
 				FB37A56F18ECF43700CECCAD /* Images.xcassets */,
 				FB37A55E18ECF43700CECCAD /* Supporting Files */,
+				FB37A58F18ECFAC600CECCAD /* Location.h */,
+				FB37A59018ECFAC600CECCAD /* Location.m */,
+				FB37A59218ECFB8100CECCAD /* LocationDataController.h */,
+				FB37A59318ECFB8100CECCAD /* LocationDataController.m */,
 			);
 			path = StoryboardMapDemo;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			files = (
 				FB37A56E18ECF43700CECCAD /* ViewController.m in Sources */,
 				FB37A59118ECFAC600CECCAD /* Location.m in Sources */,
+				FB37A59418ECFB8100CECCAD /* LocationDataController.m in Sources */,
 				FB37A56818ECF43700CECCAD /* AppDelegate.m in Sources */,
 				FB37A56418ECF43700CECCAD /* main.m in Sources */,
 				FB37A58E18ECF84F00CECCAD /* MapViewController.m in Sources */,
