@@ -24,6 +24,7 @@
 		FB37A58E18ECF84F00CECCAD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A58D18ECF84F00CECCAD /* MapViewController.m */; };
 		FB37A59118ECFAC600CECCAD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A59018ECFAC600CECCAD /* Location.m */; };
 		FB37A59418ECFB8100CECCAD /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A59318ECFB8100CECCAD /* LocationDataController.m */; };
+		FB37A59618ED008A00CECCAD /* coffeebeans.png in Resources */ = {isa = PBXBuildFile; fileRef = FB37A59518ED008A00CECCAD /* coffeebeans.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		FB37A59018ECFAC600CECCAD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ../Location.m; sourceTree = "<group>"; };
 		FB37A59218ECFB8100CECCAD /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
 		FB37A59318ECFB8100CECCAD /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
+		FB37A59518ED008A00CECCAD /* coffeebeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coffeebeans.png; path = ../../../../../Desktop/coffeebeans.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		FB37A55D18ECF43700CECCAD /* StoryboardMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FB37A59518ED008A00CECCAD /* coffeebeans.png */,
 				FB37A56618ECF43700CECCAD /* AppDelegate.h */,
 				FB37A56718ECF43700CECCAD /* AppDelegate.m */,
 				FB37A56918ECF43700CECCAD /* Main.storyboard */,
@@ -246,6 +249,7 @@
 				FB37A57018ECF43700CECCAD /* Images.xcassets in Resources */,
 				FB37A56218ECF43700CECCAD /* InfoPlist.strings in Resources */,
 				FB37A56B18ECF43700CECCAD /* Main.storyboard in Resources */,
+				FB37A59618ED008A00CECCAD /* coffeebeans.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
