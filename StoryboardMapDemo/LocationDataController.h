@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Location.h"
 
 @interface LocationDataController : NSObject
+
+- (Location*)getPointOfInterest;
 
 @end
