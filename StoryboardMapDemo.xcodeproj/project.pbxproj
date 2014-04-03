@@ -25,6 +25,7 @@
 		FB37A59118ECFAC600CECCAD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A59018ECFAC600CECCAD /* Location.m */; };
 		FB37A59418ECFB8100CECCAD /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A59318ECFB8100CECCAD /* LocationDataController.m */; };
 		FB37A59618ED008A00CECCAD /* coffeebeans.png in Resources */ = {isa = PBXBuildFile; fileRef = FB37A59518ED008A00CECCAD /* coffeebeans.png */; };
+		FB37A59818ED020200CECCAD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB37A59718ED020200CECCAD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		FB37A59218ECFB8100CECCAD /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
 		FB37A59318ECFB8100CECCAD /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
 		FB37A59518ED008A00CECCAD /* coffeebeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coffeebeans.png; path = ../../../../../Desktop/coffeebeans.png; sourceTree = "<group>"; };
+		FB37A59718ED020200CECCAD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB37A59818ED020200CECCAD /* MapKit.framework in Frameworks */,
 				FB37A55A18ECF43700CECCAD /* CoreGraphics.framework in Frameworks */,
 				FB37A55C18ECF43700CECCAD /* UIKit.framework in Frameworks */,
 				FB37A55818ECF43700CECCAD /* Foundation.framework in Frameworks */,
@@ -112,6 +115,7 @@
 		FB37A55618ECF43700CECCAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB37A59718ED020200CECCAD /* MapKit.framework */,
 				FB37A55718ECF43700CECCAD /* Foundation.framework */,
 				FB37A55918ECF43700CECCAD /* CoreGraphics.framework */,
 				FB37A55B18ECF43700CECCAD /* UIKit.framework */,
