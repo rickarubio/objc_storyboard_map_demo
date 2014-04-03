@@ -22,6 +22,7 @@
 		FB37A58118ECF43700CECCAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB37A57F18ECF43700CECCAD /* InfoPlist.strings */; };
 		FB37A58318ECF43700CECCAD /* StoryboardMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A58218ECF43700CECCAD /* StoryboardMapDemoTests.m */; };
 		FB37A58E18ECF84F00CECCAD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A58D18ECF84F00CECCAD /* MapViewController.m */; };
+		FB37A59118ECFAC600CECCAD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37A59018ECFAC600CECCAD /* Location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		FB37A58218ECF43700CECCAD /* StoryboardMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardMapDemoTests.m; sourceTree = "<group>"; };
 		FB37A58C18ECF84F00CECCAD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		FB37A58D18ECF84F00CECCAD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FB37A58F18ECFAC600CECCAD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ../Location.h; sourceTree = "<group>"; };
+		FB37A59018ECFAC600CECCAD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ../Location.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		FB37A55D18ECF43700CECCAD /* StoryboardMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FB37A58F18ECFAC600CECCAD /* Location.h */,
+				FB37A59018ECFAC600CECCAD /* Location.m */,
 				FB37A56618ECF43700CECCAD /* AppDelegate.h */,
 				FB37A56718ECF43700CECCAD /* AppDelegate.m */,
 				FB37A56918ECF43700CECCAD /* Main.storyboard */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB37A56E18ECF43700CECCAD /* ViewController.m in Sources */,
+				FB37A59118ECFAC600CECCAD /* Location.m in Sources */,
 				FB37A56818ECF43700CECCAD /* AppDelegate.m in Sources */,
 				FB37A56418ECF43700CECCAD /* main.m in Sources */,
 				FB37A58E18ECF84F00CECCAD /* MapViewController.m in Sources */,
